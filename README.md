@@ -12,7 +12,7 @@ Our dataset consists of a 3D brain volume, generated via microCT, spanning from 
 The data was collected, processed and analyzed by Prasad et al. as described in the paper, "A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity" and is publicly <a href = "http://bossdb.org/project/prasad2020" target = "_blank">available</a>.
 
 <figure>
-  <img src="/images/XZ_Reslice_VS0172_fullstack_cc_rot_crop0259.tif">
+  <img src="/images/png_259.png">
   <figcaption style="text-align:center">Example of slice 0259 in the dataset</figcaption>
 </figure>
 
