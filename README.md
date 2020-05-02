@@ -10,12 +10,7 @@ We apply our methods to a thalamocortical slice of the mouse brain, and successf
 
 Our dataset consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. It has the dimensions 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, Ventral Posterior, Zona Incerta, Hypothalamus, and White Matter (Internal Capsule + Corpus Callosum).
 The data was collected, processed and analyzed by Prasad et al. as described in the paper, "A three-dimensional X-ray microtomography thalamocortical dataset for characterizing brain heterogeneity" and is publicly <a href = "http://bossdb.org/project/prasad2020" target = "_blank">available</a>.
-<!--
-<figure>
-  <img src="/images/png_259.png" width=100>
-  <figcaption style="text-align:center">Example of slice 0259 in the dataset</figcaption>
-</figure>
--->
+
 ![](/images/png_259.png)
 <div align="center">Example of slice 0259 in the dataset</div>
 
