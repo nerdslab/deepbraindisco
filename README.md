@@ -19,6 +19,7 @@ In order to be able to model neural microstructure directly from brain imagery, 
 Once we have a well trained network that can successfully encode the relationships between the different ROIs in the sample, we pass many patches through the network and extract the activations for the same at the last hidden layer of the network. These activations can be thought of as efficient codes of the inputs that they correspond to, and typically comprise of task-specific features that are essential for the brain region discrimination task that the network was trained to do.
 
 ![](/images/overview_DeepBrainDisco.png)
+<div align="center">Overview of the DeepBrainDisco pipeline</div>
 
 The extracted activations are then collected and arranged into a matrix on which we apply dimensionality reduction via matrix factorization, viz. principal component analysis (PCA) and non-negative matrix factorization (NMF). The resulting low-dimensional manifolds provide us with important information about how the network encodes certain aspects of the data and give us a lens into how the different ROIs are organized with respect to each other, within the network. More importantly, these manifolds also give us a way of exploring the _latent factors_ of the data and learning how certain microstructural primitives are encoded in the network. 
 
