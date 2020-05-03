@@ -22,7 +22,7 @@ The extracted activations are then collected and arranged into a matrix on which
 
 ![](/images/overview_DeepBrainDisco.png)
 
-#### Relevant data and notebooks:
+### Relevant data and notebooks:
 - <a href="" target="_blank">Curated train, validation and test datasets used for training and model selection</a>
 - <a href="" target="_blank">Weights of the trained model (.pt file)</a>
 - <a href="" target="_blank">Model architecture (.py file)</a>
