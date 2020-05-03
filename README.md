@@ -22,6 +22,12 @@ The extracted activations are then collected and arranged into a matrix on which
 
 ![](/images/overview_DeepBrainDisco.png)
 
+#### Relevant data and notebooks:
+- <a href="" target="_blank">Curated train, validation and test datasets used for training and model selection</a>
+- <a href="" target="_blank">Weights of the trained model (.pt file)</a>
+- <a href="" target="_blank">Model architecture (.py file)</a>
+- <a href="" target="_blank">Jupyter notebook to load model architecture and weights as well as test the model of the train, validation and test datasets</a>
+
 ## Revealing Localized Microtructure with NMF
 
 ## Discovering New Anatomical Motifs and ROIs
