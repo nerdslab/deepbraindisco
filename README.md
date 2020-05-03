@@ -18,8 +18,8 @@ In order to be able to model neural microstructure directly from brain imagery, 
 
 Once we have a well trained network that can successfully encode the relationships between the different  in the sample, we pass many patches through the network and extract the activations for the same at the last hidden layer of the network. These activations can be thought of as efficient codes of the inputs that they correspond to, and typically comprise of task-specific features that are essential for the brai region discrimination task that the network was trained to do.
 
-The extracted activations are then collected and arranged into a matrix $\bf{X} \in \mathbb{R}^{d \times n}$
-![](/images/overview_DeepBrainDisco.png)
+The extracted activations are then collected and arranged into a matrix on which we apply dimensionality reduction via matrix factorization, viz. Non-negative Matrix Factorization (NMF). 
+![](/images/overview_trans1.png)
 
 ## Team
 - Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
