@@ -36,8 +36,9 @@ The extracted activations are then collected and arranged into a matrix on which
 ## Revealing Localized Macrostructure with NMF
 
 Different matrix factorization techniques differ in the constraints that they impose on the factors to be produced, thus giving their subsequent embeddings different properties. We found that the non-negativity constrain imposed by NMF was sufficient to generate *sparse* and *localized* factorizations of the representations collected . In this case, the embeddings of images onto these factors reveals different groupings or clusters within and across brain regions.
-
+<p align="center">
 ![](/images/rsz_rsz_nmf_factors_fig4.png)
+</p>
 <div align="center">Sparse and localized non-negative factors' embeddings across a full slice</div>
 
 #### Relevant data and notebooks:
