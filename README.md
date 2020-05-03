@@ -13,7 +13,7 @@ The data was collected, processed and analyzed by Prasad et al. as described in 
 <div align="center">Example of slice 0259 in the dataset</div>
 
 #### Relevant data
-- <a href="/deepbraindisco/image_slices" target="_blank">Images for slices 0159, 0209, 0259, and 0359</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/tree/master/image_slices" target="_blank">Images for slices 0159, 0209, 0259, and 0359</a>
 - <a href="" target="_blank">ROI annotations for slice 0259</a>
 
 ## Deep Feature Learning Approach for Neuroanatomical Discovery
