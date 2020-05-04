@@ -16,7 +16,7 @@ The data was collected, processed and analyzed by Prasad et al. as described in 
 - <a href="https://github.com/nerdslab/deepbraindisco/tree/master/image_slices" target="_blank">Images for slices 0159, 0209, 0259, and 0359</a>
 - <a href="" target="_blank">ROI annotations for slice 0259</a>
 
-## Deep Feature Learning Approach for Neuroanatomical Discovery
+## Deep feature learning approach for neuroanatomical discovery
 
 In order to be able to model neural microstructure directly from brain imagery, we first train a deep convolutional neural network (CNN) that can discriminate between different brain regions in the sample using only local views of ROIs. Restricting the network to only look at local information when identifying a particular brain region forces it to pay attention to and learn how to model specific anatomical features of the dataset, thus encouraging it to build rich feature sets such as the patterning of axons, morphology of cells, etc.
 
@@ -33,9 +33,9 @@ The extracted activations are then collected and arranged into a matrix on which
 - <a href="" target="_blank">Model architecture (.py file)</a>
 - <a href="" target="_blank">Jupyter notebook to i) load model architecture and weights, ii) test the model on the train, validation and test datasets, and, iii) collect activations across the three datasets</a>
 
-## Revealing Localized Macrostructure with NMF
+## Revealing localized macrostructure with NMF
 
-Different matrix factorization techniques differ in the constraints that they impose on the factors to be produced, thus giving their subsequent embeddings different properties. We found that the non-negativity constrain imposed by NMF was sufficient to generate *sparse* and *localized* factorizations of the representations collected . In this case, the embeddings of images onto these factors reveals different groupings or clusters within and across brain regions.
+Different matrix factorization techniques differ in the constraints that they impose on the factors to be produced, thus giving their subsequent embeddings different properties. We found that the non-negativity constrain imposed by NMF was sufficient to generate *sparse* and *localized* factorizations of the representations collected. In this case, the embeddings of images onto these factors reveals different groupings or clusters within and across brain regions.
 
 ![](/images/resized_rot_factors.png)
 <div align="center">Sparse and localized NMF coefficients (embeddings) across a full slice</div>
@@ -46,10 +46,15 @@ Different matrix factorization techniques differ in the constraints that they im
 - <a href="" target="_blank">Non-negative factors (#components = 15) for all densely sampled patches in slice 0259</a>
 - <a href="" target="_blank">Jupyter notebook to subselect localized predictive non-negative factors across slice 0259</a>
 
-## Discovering New Anatomical Motifs and ROIs
+## Discovering new anatomical motifs and ROIs
+
+Visualizing the different NMF embeddings makes it clear that the factors cause co-expression in areas with similarities in terms of their cell densities or local axonal projection patterns. We therefore chose to investigate the different factors' expressions in the cortex and found that fitting a gaussian mixture model on the non-negative factors allowed us to cluster roughly by cell density, thus allowing us to pull out both laminar differences and barrel fields, without any prior knowledge of these modtifs. These findings point to the fact that deep learning-based representations can be used to find finer sub-divisions and biological features in the data, even when they’re not trained explicitly to do so. We hope that  these results can be advanced and further translated into approaches for disease diagnosis, continuous variability modeling in brain structure, and to discover micro-architectural motifs in new areas.
 
 ## Relevant data and notebooks:
-- <a href="" target="_blank"></a>
+- <a href="" target="_blank">Cortical NMF representations for slices 0259, 0359</a>
+- <a href="" target="_blank">Cortical layer annotations for slices 0259, 0359</a>
+- <a href="" target="_blank">Jupyter notebook to i) subselect predictive cortical NMF factors in the cortex, ii) fit GMMs to them, and iii) match subsequent clusters, all across slices 0259 and 0359</a>
+- <a>Jupyter notebook to fit a GMM to the cortical NMF factors of slice 0259 and overlay them on the original image</a>
 
 ## Team
 - Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
