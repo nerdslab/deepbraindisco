@@ -51,13 +51,13 @@ Different matrix factorization techniques differ in the constraints that they im
 Visualizing the different NMF embeddings makes it clear that the factors cause co-expression in areas with similarities in terms of their cell densities or local axonal projection patterns. We therefore chose to investigate the different factors' expressions in the cortex and found that fitting a gaussian mixture model on the non-negative factors allowed us to cluster roughly by cell density, thus allowing us to pull out both laminar differences and barrel fields, without any prior knowledge of these modtifs. These findings point to the fact that deep learning-based representations can be used to find finer sub-divisions and biological features in the data, even when they’re not trained explicitly to do so. We hope that  these results can be advanced and further translated into approaches for disease diagnosis, continuous variability modeling in brain structure, and to discover micro-architectural motifs in new areas.
 
 ![](/images/fig5_edits_combo.png)
-<div align="center">Different factors clusted via GMM on the NMF embeddings, and their results overlaid on the original image</div>
+<div align="center">Different factors clusted via GMM on the NMF embeddings, and their results overlaid on the original image (slice 0259)</div>
 
 ## Relevant data and notebooks:
 - <a href="" target="_blank">Cortical NMF representations for slices 0259, 0359</a>
 - <a href="" target="_blank">Cortical layer annotations for slices 0259, 0359</a>
 - <a href="" target="_blank">Jupyter notebook to i) subselect predictive cortical NMF factors in the cortex, ii) fit GMMs to them, and iii) match subsequent clusters, all across slices 0259 and 0359</a>
-- <a href="" target="_blank">Jupyter notebook to fit a GMM to the cortical NMF factors of slice 0259 and overlay them on the original image (slice 0259)</a>
+- <a href="" target="_blank">Jupyter notebook to fit a GMM to the cortical NMF factors of slice 0259 and overlay them on the original image</a>
 
 ## Team
 - Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
