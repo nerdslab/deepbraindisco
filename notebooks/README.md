@@ -7,7 +7,7 @@ The data was collected, processed and analyzed by Prasad et al. as described in 
 <div align="center">Example of slice 0259 in the dataset</div>
 
 #### Relevant data
-- <a href="https://www.dropbox.com/sh/ljwjyj3ie7qbyko/AADONqs5u5DV2E4KN0bpGg6ea?dl=0" target="_blank">Images for slices 0159, 0209, 0259, and 0359 (image_slices)</a>
+- <a href="https://www.dropbox.com/s/n0tkvx1gsk57vky/img_slices.zip?dl=0" target="_blank">Images for slices 0159, 0209, 0259, and 0359</a>
 - <a href="" target="_blank">ROI annotations for slice 0259</a>
 
 ## Deep feature learning approach for neuroanatomical discovery
@@ -22,8 +22,8 @@ The extracted activations are then collected and arranged into a matrix on which
 <div align="center">Overview of the DeepBrainDisco pipeline</div>
 
 ### Relevant data and notebooks:
-- <a href="https://www.dropbox.com/sh/ljwjyj3ie7qbyko/AADONqs5u5DV2E4KN0bpGg6ea?dl=0" target="_blank">Curated train, validation and test datasets used for training and model selection (Data_Subset2)</a>
-- <a href="" target="_blank">Weights of the trained model (.pt file)</a>
+- <a href="https://www.dropbox.com/s/vtiyl8sq4wxpa64/Data_Subset2.zip?dl=0" target="_blank">Curated train, validation and test datasets used for training and model selection</a>
+- <a href="https://www.dropbox.com/s/q51rgk69cz90jn0/cnn_weights.pt?dl=0" target="_blank">Weights of the trained model</a>
 - <a href="" target="_blank">Model architecture (.py file)</a>
 - <a href="" target="_blank">Jupyter notebook to i) load model architecture and weights, ii) test the model on the train, validation and test datasets, and, iii) collect activations across the three datasets</a>
 
