@@ -48,7 +48,6 @@ Visualizing the different NMF embeddings makes it clear that the factors cause c
 <div align="center">Different factors clusted via GMM on the NMF embeddings, and their results overlaid on the original image (slice 0259)</div>
 
 ## Relevant data and notebooks:
-- <a href="" target="_blank">Cortical NMF representations for slices 0259, 0359</a>
 - <a href="" target="_blank">Cortical layer annotations for slices 0259, 0359</a>
 - <a href="" target="_blank">Jupyter notebook to i) subselect predictive cortical NMF factors in the cortex, ii) fit GMMs to them, and iii) match subsequent clusters, all across slices 0259 and 0359</a>
 - <a href="" target="_blank">Jupyter notebook to fit a GMM to the cortical NMF factors of and overlay them on the original image (slice 0259)</a>
