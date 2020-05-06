@@ -28,7 +28,7 @@ The extracted activations are then collected and arranged into a matrix on which
 <div align="center">Overview of the DeepBrainDisco pipeline</div>
 
 ### Relevant data and notebooks:
-- <a href="" target="_blank">Curated train, validation and test datasets used for training and model selection</a>
+- <a href="" target="_blank">Curated train, validation and test datasets used for training and model selection (Data_Subset2)</a>
 - <a href="" target="_blank">Weights of the trained model (.pt file)</a>
 - <a href="" target="_blank">Model architecture (.py file)</a>
 - <a href="" target="_blank">Jupyter notebook to i) load model architecture and weights, ii) test the model on the train, validation and test datasets, and, iii) collect activations across the three datasets</a>
