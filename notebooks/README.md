@@ -8,7 +8,7 @@ The data was collected, processed and analyzed by Prasad et al. as described in 
 
 #### Relevant data
 - <a href="https://www.dropbox.com/s/n0tkvx1gsk57vky/img_slices.zip?dl=0" target="_blank">Images for slices 0159, 0209, 0259, and 0359</a>
-- <a href="" target="_blank">ROI annotations for slice 0259</a>
+- <a href="https://www.dropbox.com/s/ltrtoo4c02f7412/usual_order_annos_noTRN_0259.npy?dl=0" target="_blank">ROI annotations for slice 0259</a>
 
 ## Deep feature learning approach for neuroanatomical discovery
 
