@@ -24,8 +24,8 @@ The extracted activations are then collected and arranged into a matrix on which
 ### Relevant data and notebooks:
 - <a href="https://www.dropbox.com/s/vtiyl8sq4wxpa64/Data_Subset2.zip?dl=0" target="_blank">Curated train, validation and test datasets used for training and model selection</a>
 - <a href="https://www.dropbox.com/s/q51rgk69cz90jn0/cnn_weights.pt?dl=0" target="_blank">Weights of the trained model</a>
-- <a href="" target="_blank">Model architecture (.py file)</a>
-- <a href="" target="_blank">Jupyter notebook to i) load model architecture and weights, ii) test the model on the train, validation and test datasets, and, iii) collect activations across the three datasets</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/blob/master/architecture.py" target="_blank">Model architecture (.py file)</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/extract_activations_train_val_test.ipynb" target="_blank">Jupyter notebook to i) load model architecture and weights, ii) test the model on the train, validation and test datasets, and, iii) collect activations across the three datasets</a>
 
 ## Revealing localized macrostructure with NMF
 
