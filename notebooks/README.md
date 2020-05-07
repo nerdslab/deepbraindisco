@@ -45,7 +45,7 @@ Different matrix factorization techniques differ in the constraints that they im
 Visualizing the different NMF embeddings makes it clear that the factors cause co-expression in areas with similarities in terms of their cell densities or local axonal projection patterns. We therefore chose to investigate the different factors' expressions in the cortex and found that fitting a gaussian mixture model on the non-negative factors allowed us to cluster roughly by cell density, thus allowing us to pull out both laminar differences and barrel fields, without any prior knowledge of these modtifs. These findings point to the fact that deep learning-based representations can be used to find finer sub-divisions and biological features in the data, even when they’re not trained explicitly to do so. We hope that  these results can be advanced and further translated into approaches for disease diagnosis, continuous variability modeling in brain structure, and to discover micro-architectural motifs in new areas.
 
 ![](/images/fig5_edits_combo_jpg.jpg)
-<div align="center">Different factors clusted via GMM on the NMF embeddings, and their results overlaid on the original image (slice 0259)</div>
+<div align="center">Different factors clustered via GMM on the NMF embeddings, and their results overlaid on the original image (slice 0259)</div>
 
 ## Relevant data and notebooks:
 - <a href="https://www.dropbox.com/sh/psr95swt7ipaxrp/AAAbB-14dEGFfm5HtSPuh3YZa?dl=0" target="_blank">Cortical layer annotations for slices 0259, 0359</a>
