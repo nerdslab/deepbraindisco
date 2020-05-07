@@ -36,7 +36,7 @@ Different matrix factorization techniques differ in the constraints that they im
 
 #### Relevant data and notebooks:
 - <a href="https://www.dropbox.com/sh/r3ucfrlyoe9yyie/AACvGrIBu4OFhXYZm_bqOXZUa?dl=0" target="_blank">Network representations extracted from densely sampled patches and their locations in slices 0259, 0359</a>
-- <a href="" target="_blank">Jupyter notebook to generate non-negative factors from network activations</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/combined_reps_NMF-0259.ipynb" target="_blank">Jupyter notebook to generate non-negative factors from network activations</a>
 - <a href="https://www.dropbox.com/sh/tsjwi82uzydogm2/AAA_3U8XiAe0hr5RxPgPj5wMa?dl=0" target="_blank">15D NNMF representations for slices 0259, 0359</a>
 - <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/Select_topK_NMF_factors.ipynb" target="_blank">Jupyter notebook to subselect localized predictive non-negative factors across slices 0259, 0359</a>
 
