@@ -38,7 +38,7 @@ Different matrix factorization techniques differ in the constraints that they im
 - <a href="" target="_blank">Network representations extracted from densely sampled patches in slice 0259</a>
 - <a href="" target="_blank">Jupyter notebook to generate non-negative factors from network activations</a>
 - <a href="" target="_blank">Non-negative coefficients (#components = 15, stacked) for all densely sampled patches in slice 0259</a>
-- <a href="" target="_blank">Jupyter notebook to subselect localized predictive non-negative factors across slice 0259</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/Select_topK_NMF_factors.ipynb" target="_blank">Jupyter notebook to subselect localized predictive non-negative factors across slices 0259, 0359</a>
 
 ## Discovering new anatomical motifs and ROIs
 
@@ -51,7 +51,7 @@ Visualizing the different NMF embeddings makes it clear that the factors cause c
 - <a href="https://www.dropbox.com/sh/psr95swt7ipaxrp/AAAbB-14dEGFfm5HtSPuh3YZa?dl=0" target="_blank">Cortical layer annotations for slices 0259, 0359</a>
 - <a href="https://www.dropbox.com/sh/pw0vadyuymemiye/AACGMiuXqogZLDlrRK937KVKa?dl=0" target="_blank">Cortical network activations for slices 0259, 0359</a>
 - <a href="https://www.dropbox.com/sh/tsjwi82uzydogm2/AAA_3U8XiAe0hr5RxPgPj5wMa?dl=0" target="_blank">15D NNMF representations for slices 0259, 0359</a>
-- <a href="" target="_blank">Jupyter notebook to subselect predictive cortical NMF factors in the cortex for slice 0259</a>
+- <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/Select_topK_NMF_factors.ipynb" target="_blank">Jupyter notebook to subselect predictive cortical NMF factors in the cortex for slices 0259, 0359</a>
 - <a href="https://github.com/nerdslab/deepbraindisco/blob/master/notebooks/Cortex_clustering_GMM_analyses_no_outliers_0259_0359.ipynb" target="_blank">Jupyter notebook to i) remove outlier samples in the cortex, ii) fit GMMs to the remaining samples' NMF factors, iii) match subsequent clusters, and, iv) Overlay GMMs on original images, all across slices 0259 and 0359</a>
 
 ## Team
