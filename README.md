@@ -5,6 +5,9 @@ Models of neural architecture and organization are critical for the study of dis
 ![](/images/overview_DeepBrainDisco_inverted.png)
 <div align="center">Overview of the Deep Brain Discovery pipeline</div>
 
+## Requirements
+The packages used in this repository are numpy, matplotlib,  pandas, scipy, seaborn, skimage, sklearn, pytorch and torchvision. For exact package versions, please check the [requirements](https://github.com/nerdslab/deepbraindisco/blob/master/requirements.txt)
+
 ## Team
 - Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
 - Eva L. Dyer ([evadyer](https://github.com/evadyer))
