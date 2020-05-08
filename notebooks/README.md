@@ -1,3 +1,6 @@
+## Requirements
+The packages used in this repository are numpy, matplotlib,  pandas, scipy, seaborn, skimage, sklearn, pytorch and torchvision. For exact package versions, please check the [requirements](https://github.com/nerdslab/deepbraindisco/blob/master/requirements.txt).
+
 ## Data
 
 Our <a href = "http://bossdb.org/project/prasad2020" target = "_blank">dataset</a> consists of a 3D brain volume, generated via microCT, spanning from hypothalamus to cortex. It has the dimensions 720x1420x5805 (z,y,x), with a 1.17um isotropic voxel volume. The brain areas available are Cortex, Striatum, Ventral Posterior, Zona Incerta, Hypothalamus, and White Matter (Internal Capsule + Corpus Callosum).
