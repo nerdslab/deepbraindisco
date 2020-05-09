@@ -1,5 +1,5 @@
 ## Requirements
-The packages used in this repository are numpy, matplotlib,  pandas, scipy, seaborn, skimage, sklearn, pytorch and torchvision. For exact package versions, please check the [requirements](https://github.com/nerdslab/deepbraindisco/blob/master/requirements.txt).
+The packages used in this repository are numpy, matplotlib,  pandas, scipy, seaborn, skimage, sklearn, statannot, pytorch and torchvision. For exact package versions, please check the [requirements](https://github.com/nerdslab/deepbraindisco/blob/master/requirements.txt).
 
 ## Data
 
