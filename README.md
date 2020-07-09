@@ -6,5 +6,5 @@ Models of neural architecture and organization are critical for the study of dis
 <div align="center">Overview of the Deep Brain Discovery pipeline</div>
 
 ## Team
-- Aishwarya H. Balwani ([AishwaryaHB](https://github.com/AishwaryaHB))
-- Eva L. Dyer ([evadyer](https://github.com/evadyer))
+- Aishwarya H. Balwani ([AishwaryaHB](https://aishwaryahb.github.io))
+- Eva L. Dyer ([evadyer](https://evadyer.github.io))
